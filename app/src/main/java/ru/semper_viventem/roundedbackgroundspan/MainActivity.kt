@@ -31,18 +31,27 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initSpannableText() {
-        val span = RoundedBackgroundColorSpan(colors.random(), dp(5), dp(5))
+        val span = RoundedBackgroundColorSpan(
+            backgroundColor = colors.random(),
+            padding = dp(5),
+            radius = dp(5)
+        )
+
         with(spanText) {
-            setShadowLayer(dp(10), 0f, 0f, 0) // it's impotent for padding working
+            setShadowLayer(dp(10), 0f, 0f, 0) // it's important for padding working
 
             text = buildSpannedString { inSpans(span) { append(text.toString()) } }
         }
     }
 
     private fun initSpannableEditText() {
-        val span = RoundedBackgroundColorSpan(Color.CYAN, dp(5), dp(10))
+        val span = RoundedBackgroundColorSpan(
+            backgroundColor = Color.CYAN,
+            padding = dp(5),
+            radius = dp(10)
+        )
 
-        spanEditText.setShadowLayer(dp(10), 0f, 0f, 0) // it's impotent for padding working
+        spanEditText.setShadowLayer(dp(10), 0f, 0f, 0) // it's important for padding working
 
         spanEditText.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(text: Editable?) {
