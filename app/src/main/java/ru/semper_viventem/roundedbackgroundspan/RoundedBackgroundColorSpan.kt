@@ -13,6 +13,7 @@ import kotlin.math.abs
  * Draw rounded background for text
  *
  * @author Konstantin Kulikov (aka Semper-Viventem)
+ * @see <a href="https://github.com/Semper-Viventem/RoundedBackgroundSpan">GitHub sources</a>
  */
 class RoundedBackgroundColorSpan(
     @ColorInt backgroundColor: Int,
