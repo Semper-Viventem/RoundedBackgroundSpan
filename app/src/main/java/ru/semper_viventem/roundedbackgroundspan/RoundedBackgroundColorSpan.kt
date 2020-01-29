@@ -7,6 +7,12 @@ import android.graphics.RectF
 import android.text.style.LineBackgroundSpan
 import kotlin.math.abs
 
+/**
+ * Draw rounded background for text
+ *
+ * @author Konstantin Kulikov (aka Semper-Viventem)
+ * @see <a href="https://github.com/Semper-Viventem/RoundedBackgroundSpan">GitHub sources</a>
+ */
 class RoundedBackgroundColorSpan(
     backgroundColor: Int,
     private val padding: Float,
