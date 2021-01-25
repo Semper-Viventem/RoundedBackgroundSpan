@@ -5,7 +5,7 @@ It's simple implementation of background span with rounded corners for Android.
 
 ## Usage
 
-1. Copy <a href="https://github.com/Semper-Viventem/RoundedBackgroundSpan/blob/master/app/src/main/java/ru/semper_viventem/roundedbackgroundspan/RoundedBackgroundColorSpan.kt">RoundedBackgroundColorSpan</a> in our project.
+1. Copy <a href="https://github.com/Semper-Viventem/RoundedBackgroundSpan/blob/master/app/src/main/java/ru/semper_viventem/roundedbackgroundspan/RoundedBackgroundColorSpan.kt">RoundedBackgroundColorSpan</a> in your project.
 
 2. Use it from your code:
 ``` Kotlin
